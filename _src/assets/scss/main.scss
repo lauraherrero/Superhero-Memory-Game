@@ -1,7 +1,5 @@
-@import "core/settings";
-@import "core/reset";
-@import "components/page";
-@import "components/header";
+@import "core/functions";
+@import "core/mixins";
+@import "core/variables";
+@import "vendors/normalize";
 @import "components/main";
-@import "components/links";
-@import "components/footer";
