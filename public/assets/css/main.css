@@ -234,23 +234,39 @@ ul {
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  height: 100vh;
-  max-width: 1200px;
+  height: 80vh;
+  max-width: 75rem;
 }
 
 img {
-  width: 200px;
-  height: 200px;
+  width: 12.5rem;
+  height: 25vh;
 }
 
 .score {
   position: absolute;
-  right: 120px;
-  top: 50px;
-  background-color: #14a7dc;
-  padding: 10px 20px 10px 10px;
-  border-radius: 8px;
-  border: 2px solid black;
+  right: 7.5rem;
+  top: 3.125rem;
+  background-color: #696794;
+  padding: 0.625rem 1.25rem 0.625rem 0.625rem;
+  border-radius: 0.5rem;
+  border: 0.125rem solid black;
+}
+
+.congrats {
+  text-transform: uppercase;
+  color: #696794;
+  background-color: black;
+  border: 6px double white;
+  right: 35.625rem;
+  top: 35vh;
+}
+
+body {
+  height: 100vh;
+  background-color: #cec7ec;
+  background: filter-gradient(#cec7ec, #ebe9f9, horizontal);
+  background: background-image(linear-gradient(left, #cec7ec 0%, #c1bfea 0%, #ebe9f9 100%));
 }
 
 /*# sourceMappingURL=main.css.map */

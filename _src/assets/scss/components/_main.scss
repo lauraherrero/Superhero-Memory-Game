@@ -1,20 +1,36 @@
 .grid{
   display: flex;
   flex-wrap: wrap;
-  height: 100vh;
-  max-width: 1200px;
+  height: 80vh;
+  max-width: rem(1200);
 }
 
 img{
-  width: 200px;
-  height: 200px;
+  width: rem(200);
+  height: 25vh;
 }
 .score{
   position: absolute;
-  right: 120px;
-  top: 50px;
-  background-color: rgb(20, 167, 220);
-  padding: 10px 20px 10px 10px;
-  border-radius: 8px;
-  border: 2px solid black;
+  right: rem(120);
+  top: rem(50);
+  background-color: rgba(105,103,148,1);
+  padding: rem(10) rem(20) rem(10) rem(10);
+  border-radius: rem(8);
+  border: rem(2) solid black;
+}
+
+.congrats{
+  text-transform: uppercase;
+  color: rgba(105,103,148,1);
+  background-color: black;
+  border: 6px double white;
+  right: rem(570);
+  top: 35vh;
+}
+
+body{
+  height: 100vh;
+  background-color: rgba(206,199,236,1);
+  background: filter-gradient(#cec7ec, #ebe9f9, horizontal);
+  background: background-image(linear-gradient(left, rgba(206,199,236,1) 0%, rgba(193,191,234,1) 0%, rgba(235,233,249,1) 100%));
 }
